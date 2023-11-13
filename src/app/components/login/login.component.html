@@ -1,0 +1,45 @@
+
+
+<div class="position-absolute">The BatMan Shop</div>
+
+<div><img class="BackImage" src="assets/images/funny-children-s-cupcakes-halloween_136595-4923.jpg" alt="Girl in a jacket"></div>
+
+
+<div class="login-style">
+
+ 
+
+  <h1> Login </h1>
+
+
+  <form [formGroup]="loginForm">
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">@</span>
+      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" formControlName="userName">
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon2">@</span>
+      <input type="Password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon2" formControlName="password">
+    </div>
+
+    <div class="social">
+      <div class="go"><i class="fab fa-google"></i>  Google</div>
+      <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+    </div>
+
+  </form>
+
+
+  <button class="btn" type="button" class="btn btn-primary" (click)="login()">Login</button>
+</div>
+
+
+
+
+
+
+
+
+
+

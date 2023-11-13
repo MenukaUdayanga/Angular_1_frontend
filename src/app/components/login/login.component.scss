@@ -1,0 +1,86 @@
+.login-style{
+
+  //width:310px;
+  //margin: 30px auto;
+  //padding-top: 300px;
+
+  height: 520px;
+  width: 400px;
+  background: linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 83.8%);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px 35px;
+
+}
+
+
+
+
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #eaf0fb;
+  text-align: center;
+}
+.social div:hover{
+  background-color: rgba(255,255,255,0.47);
+}
+.social .fb{
+  margin-left: 25px;
+}
+.social i{
+  margin-right: 4px;
+}
+
+h1{
+  color: white;
+  padding-bottom: 25px;
+}
+.btn{
+  position: absolute;
+  top: 320PX;
+
+}
+
+.BackImage{
+
+ width: 100%;
+  background-repeat: repeat-x;
+
+
+}
+
+.position-absolute{
+
+  //position:static ;
+
+  font-family: Times New Roman;
+
+  color: white;
+  font-size: 70px;
+  margin-left: 750px;
+  //top: 50%;
+  //left: 50%;
+  //top: 7%;
+  //left: 32%;
+
+  //margin: 50px auto;
+
+
+
+}
+
+

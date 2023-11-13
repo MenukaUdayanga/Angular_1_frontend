@@ -1,0 +1,35 @@
+
+<div class="card" >
+  <div class="card-body">
+    <h1>Recorded order List</h1>
+
+<button (click)="getClients()">getClients</button>
+
+    <table class="table table-striped">
+    <thead>
+    <tr>
+      <th scope="col">Number</th>
+      <th scope="col">Juice Name</th>
+      <th scope="col">Number of Glasses</th>
+      <th scope="col">Price</th>
+      <th scope="col">Date</th>
+      <th scope="col">Time</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let client of clients">
+      <td>{{client.number}}</td>
+      <td>{{client.juiceName}}</td>
+      <td>{{client.glassOfJuice}}</td>
+      <td>{{client.price}}</td>
+      <td>{{client.date}}</td>
+      <td>{{client.time}}</td>
+
+    </tr>
+
+    </tbody>
+
+  </table>
+
+  </div>
+</div>
